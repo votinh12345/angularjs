@@ -2,6 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { loginRoutes }    from './login/login.routes';
+import { planRoutes }    from './plan/plan.routes';
 
 // Route Configuration
 export const routes: Routes = [
@@ -10,7 +11,8 @@ export const routes: Routes = [
     redirectTo: '/login',
     pathMatch: 'full'
   },
-  ...loginRoutes
+  ...loginRoutes,
+  ...planRoutes
   
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

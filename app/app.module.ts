@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { routing } from './app.routes';
 
 import { LoginComponent } from './login/login.component';
+import { PlanComponent } from './plan/plan.component';
+import { PagerService } from './_services/index';
 
 @NgModule({
     imports: [
@@ -19,7 +21,11 @@ import { LoginComponent } from './login/login.component';
     ],
     declarations: [
         AppComponent,
-        LoginComponent
+        LoginComponent,
+        PlanComponent
+    ],
+    providers: [
+        PagerService
     ],
     bootstrap: [AppComponent]
 })
