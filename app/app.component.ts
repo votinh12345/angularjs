@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
     moduleId: module.id,
     selector: 'my-app',
     templateUrl: 'app.component.html',
+    
 })
 
 // App Component class

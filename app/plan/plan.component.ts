@@ -3,8 +3,6 @@ import { Http, Headers, RequestOptions, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map'
 
-import * as _ from 'underscore';
-
 import { PagerService } from '../_services/index'
 import { environment } from '../config/environment';
 
