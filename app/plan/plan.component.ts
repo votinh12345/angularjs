@@ -16,6 +16,8 @@ export class PlanComponent implements OnInit {
 
     constructor(private http: Http, private pagerService: PagerService) { }
 
+    path = 'app/path.component.html';
+    
     private allItems: any[];
     // pager object
     pager: any = {};

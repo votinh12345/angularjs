@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 
-import { HeaderComponent } from './header/header.component';
-import { NavComponent } from './nav/nav.component';
-
 @Component({
     moduleId: module.id,
     selector: 'my-app',
@@ -11,4 +8,9 @@ import { NavComponent } from './nav/nav.component';
 })
 
 // App Component class
-export class AppComponent{}
+export class AppComponent{
+    isEven(){
+        console.log('21212121');
+        return true;
+    }
+}

@@ -9,6 +9,8 @@ import { routing } from './app.routes';
 import { LoginComponent } from './login/login.component';
 import { PlanComponent } from './plan/plan.component';
 import { PagerService } from './_services/index';
+import { HeaderComponent } from './header/header.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
     imports: [
@@ -22,7 +24,9 @@ import { PagerService } from './_services/index';
     declarations: [
         AppComponent,
         LoginComponent,
-        PlanComponent
+        PlanComponent,
+        HeaderComponent,
+        NavComponent
     ],
     providers: [
         PagerService

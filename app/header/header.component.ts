@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: "app-header",
+    moduleId: module.id,
+    selector: "header",
     templateUrl: "header.html"
 })
 export class HeaderComponent {
